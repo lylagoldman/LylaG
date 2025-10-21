@@ -31,7 +31,7 @@ struct ContentView: View {
                     
                         
                 }
-                .padding(.top, 80)
+                .padding(.top, 20)
                 
                 HStack {
                     Image("AlbumCover")
@@ -104,7 +104,7 @@ struct ContentView: View {
             
         }
         .frame(maxWidth: .infinity, alignment: .center)
-        .padding(.bottom, 100)
+        Spacer()
 
     }
 }
